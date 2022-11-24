@@ -6,5 +6,6 @@ public class vm{
         int k = 322;
         System.out.println(i + j + k);
         System.out.println(k - j);
+        System.out.println(k - i + j);
     }
 }
