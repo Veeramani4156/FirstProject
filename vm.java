@@ -2,6 +2,7 @@ public class vm{
     
     public static void main(String[] args){
         int i = 12;
-        System.out.println(i);
+        int j = 13;
+        System.out.println(i + j);
     } 
 }
