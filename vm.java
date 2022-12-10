@@ -1,7 +1,7 @@
 class student{
     private String name = "Veeramani_VM";
     private int age = 22;
-    private int rollnum = 175157;
+    private int rollnum = 2269949;
     public String getName() {
         return name;
     }
@@ -24,12 +24,12 @@ class student{
 public class vm {
     public static void main(String[] args) {
         student s1 = new student();
-        //s1.setName("veeramani");
-        //s1.setAge(23);
-        //s1.setRollnum(2269949);
-        System.out.println(s1.getName());
-        System.out.println(s1.getAge());
-        System.out.println(s1.getRollnum());
+        s1.setName("veeramani");
+        s1.setAge(23);
+        s1.setRollnum(2269949);
+        //System.out.println(s1.getName());
+        //System.out.println(s1.getAge());
+        //System.out.println(s1.getRollnum());
 
     }
 
